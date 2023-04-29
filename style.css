@@ -60,6 +60,16 @@ th {
     color: white;
 }
 
+th:hover{
+    background-color: red;
+}
+tr:nth-child(even){
+    background-color: yellow;
+}
+tr:nth-child(odd){
+    background-color: blue;
+}
+
 .footer {
     background-color: #5ADBFF;
     padding: 0.5em;
@@ -68,4 +78,27 @@ th {
 .festa{
     font-size: 50px;
     color: white;
+}
+ #btn {
+ background-color: red;
+ color: black;
+ padding: 20px 15px 20px 15px;
+}
+#li-tag{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.class1{
+    
+}
+.foto1{
+    width: 150px;
+    height: 75px;
+    margin: 50px;
+    padding: 50px;
+}
+.h1shi{
+    margin-right: 300px;
+    margin-bottom: 200px;
 }
